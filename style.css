@@ -1,0 +1,93 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+.menu{
+    position: fixed;
+    background : linear-gradient(to right, rgb(149, 204, 143), rgb(75, 192, 87),rgb(40, 181, 75));
+    width: 100%;
+    margin-top: 0px;   
+    height: 10%;
+}
+.links{
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 25px;
+    font-family: "Playfair Display", serif;
+    /* font-optical-sizing: auto;
+    font-style: italic; */
+}
+a{
+    text-decoration: none;
+    color: rgb(4, 69, 46);
+    text-shadow: 2px 2px 2px rgb(191, 203, 191);
+    
+}
+/* pseudon classes - synyax: selector:pseudo-class{property::value} */
+.links:hover{
+    font-size: 30px;
+    text-decoration: underline;
+}
+html{
+    scroll-behavior:smooth;
+}
+#welcome{ 
+    background : linear-gradient(to bottom right, rgb(149, 204, 143), rgb(75, 192, 87),rgb(26, 123, 63));
+}
+.profile{
+    margin-top: 70px;
+    border-radius: 30px;
+}
+h1{
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+}
+#name{
+    font-size: 50px;
+    line-height: 1.5;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+h2{
+    font-size: 30px;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+#bio{
+    font-size: 20px;
+    padding: 50px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 250;
+}
+.line{
+    height: 5px;
+    background-color: black;
+    width: 80px;
+    margin: auto;
+}
+#writings a{
+    text-decoration: underline;
+    text-shadow: none;
+    color: rgb(6, 44, 159);
+}
+#writings a:hover{
+    color: rgb(101, 44, 44);
+}
+#contact iframe{
+    width: 100%;
+}
+#contact a{
+text-shadow: none;
+}
+.contact_1 h3{
+display: inline;
+}
